@@ -1,0 +1,736 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Admin Module - BasicAI Platform Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#admin-module" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="BasicAI Platform Documentation" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              BasicAI Platform Documentation
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Admin Module
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="BasicAI Platform Documentation" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    BasicAI Platform Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Platform Overview" class="md-nav__link">
+      Platform Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../root/" title="Root Module" class="md-nav__link">
+      Root Module
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Admin Module
+      </label>
+    
+    <a href="./" title="Admin Module" class="md-nav__link md-nav__link--active">
+      Admin Module
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#platform-login" class="md-nav__link">
+    Platform Login
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../team/" title="Team Module" class="md-nav__link">
+      Team Module
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../API.md" title="API" class="md-nav__link">
+      API
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#platform-login" class="md-nav__link">
+    Platform Login
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="admin-module">Admin Module</h1>
+<pre><code>This is an outline of the Admin Module, mainly used to create projects, set up templates, and monitor the progress of projects that are underway.
+</code></pre>
+<h2 id="platform-login">Platform Login</h2>
+<p>As a admin user, you will log into the platform through below URL</p>
+<pre><code>https://admin.saas.basic.ai/login (SAAS)
+https://admin.sandbox.basic.ai/login (Sandbox)
+</code></pre>
+<h1 id="1-project-managementadmin-manager">1 Project Management(Admin Manager)</h1>
+<pre><code>Let’s take creating an image annotation project as an example.
+</code></pre>
+<h2 id="11-create-project">1.1 Create Project</h2>
+<pre><code>Log in to the Admin platform, then click [Business]—&gt;[Project Management]—&gt;[Create project]
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00001.png" /></p>
+<pre><code>After clicking [Create project], you will enter project type page as below:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00002.png" /></p>
+<pre><code>Select project type as [Object Recognition(2D Bbox)] before clicking [Create project]
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00003.png" /></p>
+<h2 id="12-project-basic-information">1.2 Project Basic Information</h2>
+<p><img alt="Screenshot" src="../img/admin00004.png" /></p>
+<pre><code>Basic information for creating a project include category, project name, start &amp; end time, and Upload data package.
+</code></pre>
+<h6 id="category">Category:</h6>
+<pre><code>It is the project type you choose when you create a project.
+</code></pre>
+<h6 id="project-name">Project name:</h6>
+<pre><code>It would help the project administrator/manager search and manage projects conveniently.
+</code></pre>
+<h6 id="start-end-time">Start &amp; end time:</h6>
+<pre><code>This determines the execution period of the project. An operator can only execute tasks in the project within this period.
+</code></pre>
+<h6 id="upload-data-package">Upload data package:</h6>
+<pre><code>There are three ways to upload your data: web page, SSH, and FTP (with permissions).
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00005.png" /></p>
+<h6 id="through-web-page">Through web page:</h6>
+<pre><code>Click the rectangle area shown in the image below to select to-be-annotated files, or drag the files into the area.
+</code></pre>
+<h6 id="via-ssh-and-ftp">Via SSH and FTP:</h6>
+<pre><code>When there is an enormous amount of data to be annotated, SSH and FTP, with special tools, can be used for uploading the data. In addition, uploading via FTP requires permission from us.
+</code></pre>
+<h6 id="publish-project">Publish project:</h6>
+<pre><code>After filling all the project information, click [publish project], then you successfully created a project on the platform.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00006.png" /></p>
+<h2 id="13-project-configuration">1.3 Project Configuration</h2>
+<pre><code>On the project list, projects are sorted according to the time they have been created so users can easily find the latest projects. When a project is not configured, the [configuration] button will be highlighted in orange to remind the project administrator to configure it.  
+In the following instruction, let’s find a newly created project and start configuring it by clicking the [configuration] button.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00007.png" /></p>
+<h3 id="131-allocate-batch">1.3.1 Allocate Batch</h3>
+<pre><code>To configure a project, the first step is to divide data into numerous batches for the sake of project management and data exporting.
+This platform provides three methods to divide data: allocate by category, allocate equally according to the total amount, and freely allocation. Data division is only suitable for dealing with a tremendous amount of data requiring management of various batches.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00008.png" /></p>
+<pre><code>If a project does not need to divide its data into batches, the project administrator/manager can skip the step by simply clicking [Save] on the page and then clicking [Confirm, next step] in an ensuing pop-up window.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00009.png" /></p>
+<h3 id="132-setup-process">1.3.2 Setup Process</h3>
+<pre><code>The second step is to set the processes of a project. 
+Processes are defined in three types based on their functionality: execution, audit, and quality inspection. These three processes can be added, deleted, edited and re-arranged in any projects.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00010.png" />
+<img alt="Screenshot" src="../img/admin00011.png" /></p>
+<pre><code>By setting a parent node for each process, you can determine the sequence of different processes. In the image above, execution is the parent node of audit, while audit is the parent node of quality inspection.
+</code></pre>
+<h4 id="1321-execution">1.3.2.1 Execution</h4>
+<pre><code>Execution is the process in which an operator or an AI model generates results by collecting, cleaning or annotating.
+“When configuring an “execution” process, you need to set the category of the process and select a template.
+</code></pre>
+<h6 id="set-process-category">Set process category:</h6>
+<p><img alt="Screenshot" src="../img/admin00012.png" /></p>
+<h6 id="set-a-template">Set a template:</h6>
+<p><img alt="Screenshot" src="../img/admin00013.png" /></p>
+<h6 id="use-copy-template">[Use Copy Template]:</h6>
+<pre><code>This button will allow you to create a new template by copying the original template, without changing the content of the original one.
+</code></pre>
+<h6 id="use-this-template">[Use this template]:</h6>
+<pre><code>This button will allow you to use the original template without creating a new one. If you apply any changes to the template, other projects using it will update their template as well. This feature is suitable for long-term projects.
+</code></pre>
+<h6 id="tip">Tip:</h6>
+<pre><code>For public templates, the platform only allows users to copy them. If you want to edit a public template, please check [Category/Classification Management] on Root platform.
+After confirming a template, you can edit it or choose another template by clicking the corresponding buttons below.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00014.png" /></p>
+<h4 id="1322-audit">1.3.2.2 Audit</h4>
+<pre><code>The “audit” process is where job results from the last process are approved, rejected or reset.
+When setting an “audit” process, a parent node must be set for auditors to examine all jobs submitted.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00015.png" /></p>
+<h4 id="1323-quality-inspection">1.3.2.3 Quality Inspection</h4>
+<pre><code>Like audit, “quality inspection” also examines jobs, except that it does not have to go through all jobs submitted. Spot check can be done here.
+It is recommended that a quality inspection process be set at the end of a workflow.
+</code></pre>
+<h6 id="serial-processes">Serial Processes:</h6>
+<p><img alt="Screenshot" src="../img/admin00016.png" /></p>
+<h6 id="parallel-processes">Parallel Processes:</h6>
+<pre><code>The image below demonstrates the processes of a task involving image transcription and bounding box.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00017.png" />
+<img alt="Screenshot" src="../img/admin00018.png" /></p>
+<pre><code>The quality inspection process has two parent nodes: Bbox audit and transcription audit.
+Click [Save,next step] to the third step.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00019.png" /></p>
+<h3 id="133-set-tasks">1.3.3 Set Tasks</h3>
+<pre><code>According to batches and processes set before, a project will be divided into various tasks. The third step of project configuration is to set the number of sheets that can be claimed each time for every task, define execution time, and assign the tasks to various teams, so as to achieve dynamic productivity management.
+</code></pre>
+<h6 id="number-of-tasks">Number of tasks</h6>
+<pre><code>number of batches*number of processes
+For example, when there are 2 batches and 3 processes for each batch, there will be a total of 6 tasks.
+By clicking [Settings] you can set the execution conditions for a task.
+[Select target] allows you to select annotation teams, crowdsourcing or models to execute the task. Click [Save] to save the settings.
+Click [Save settings] to complete setting.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00020.png" /></p>
+<h6 id="definitions">Definitions:</h6>
+<h6 id="task-name-the-name-of-a-task-when-it-is-available-on-the-team-platform">Task name: The name of a task when it is available on the Team platform.</h6>
+<h6 id="number-of-jobs-claimed-each-time">Number of jobs claimed each time:</h6>
+<pre><code>The number of jobs or sheets cached by the system for an operator when he/she is executing tasks. When the operator finishes the cached jobs, the same amount of new jobs will be cached automatically.
+</code></pre>
+<h6 id="start-time">Start time:</h6>
+<pre><code>The time when a task becomes available on the Team platform.
+</code></pre>
+<h6 id="end-time">End time:</h6>
+<pre><code>After the end time, operators will not be able to execute the task, while their performance will be kept.
+</code></pre>
+<h6 id="platform">Platform:</h6>
+<pre><code>Determine what platform the execution subject comes from.
+</code></pre>
+<h6 id="target">Target:</h6>
+<pre><code>When you have chosen “team” in platform selection, you can select a valid team for this option; when you have chosen “AI model” in platform selection, you can select a valid AI model for this option.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00021.png" /></p>
+<pre><code>[Batch settings] By checking the boxes on the left side of the task list, or click [Select all and execute][Select all and audit][Select all and inspect], you can set multiple tasks at once.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00022.png" /></p>
+<p><img alt="Screenshot" src="../img/admin00023.png" /></p>
+<h2 id="14-export-annotation-results-admin-manager">1.4 Export Annotation Results (Admin Manager)</h2>
+<pre><code>When the project administrator/manager logs in to the Admin platform, he/she can enter the project detail page by clicking [Project Management] on the left panel and then clicking the name of a project presented on the page. 
+On the project detail page, click [Download Results] to enter the download page.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00024.png" /></p>
+<h6 id="when-downloading-results-you-must-select">When downloading results, you must select:</h6>
+<h6 id="download-batch">Download batch:</h6>
+<pre><code>One or more batches of the project;
+</code></pre>
+<h6 id="download-steps">Download steps:</h6>
+<pre><code>You must select one process of the project for downloading results. When you choose the “execution” process, submitted jobs in the execution process will be downloaded; when you choose the “audit” process, approved jobs in the audit process will be downloaded; and when you choose the “quality inspection” process, all jobs under quality inspection will be downloaded.
+</code></pre>
+<h6 id="download-file-format">Download file format:</h6>
+<pre><code>You can select one of various file formats based on your needs. If you require results in various formats, you have to download them separately in different formats.
+</code></pre>
+<h6 id="configuration-options">Configuration options:</h6>
+<pre><code>By setting the options, you can decide whether the results need to be translated into Chinese and whether to filter out empty results.
+</code></pre>
+<h6 id="time">Time:</h6>
+<pre><code>You can download job data in a package from a specific period of time.
+After setting all the options above, when you click [Pack data], to-be-downloaded data will appear on the list as shown below. When the status of data turns into “Packed successfully”, it means the data is ready to be downloaded.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00025.png" /></p>
+<pre><code>If you want to download multiple packages at once, you can check the boxes on the left side of the list. This requires turning off the [block pop-ups] feature in browser settings.
+To disable the feature in Chrome, go to [Settings]—&gt; [Advanced]—&gt;[Site Settings]—&gt;[Pop-ups and redirects] to turn it off.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00026.png" /></p>
+<h1 id="2template-management">2.Template Management</h1>
+<pre><code>The project administrator/manager is able to enter the template editing page through the [Template Management] button or when setting the processes of a project.
+The editing page is divided into three areas: module selection, template preview, and module attribute editing.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00027.png" /></p>
+<pre><code>For image tasks, Layout module is often used to split the page into two parts: the left part is for image preview, and the right part is for tag selection or transcription. This arrangement is shown as below:
+</code></pre>
+<p><img alt="Screenshot" src="img/admin00028.png" /></p>
+<pre><code>For Single-choice, Multiple-choice, Single-row input and Multiple-row input modules, there are more instructions as follows:
+</code></pre>
+<h2 id="21-single-choicemultiple-choice-modules">2.1 Single-Choice/Multiple-Choice Modules</h2>
+<pre><code>For Single-choice/Multiple-choice modules, the attribute editing area features following functions:
+[Add option] By clicking this button, you can add a new option.
+[Delete option] By clicking the trash can icon to the right of an option, you can delete the option immediately.
+[Drag option] By pressing and dragging the triple-strip icon to the left of an option, you can change the position of the option.  
+[Set default option] By checking the boxes on the left, you can decide which options are set as default. 
+【Hotkeys】 Click this button to enable hotkeys. After selecting the button, press a letter or a number on the keyboard to set it as the hotkey for an option. For instance, in the picture below the hotkey for option “Valid” is set as “1”, the hotkey function for option “Invalid” has been activated without actually setting a hotkey, whereas option “Not sure” has not had the feature activated.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00029.png" /></p>
+<h2 id="22-single-rowmultiple-row-input-modules">2.2 Single-Row/Multiple-Row Input Modules</h2>
+<pre><code>These two modules are introduced for an operator to input text. The difference between a single-row input module and a multiple-row input module in task configuration is that the latter has an icon in the lower-right corner.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00030.png" /></p>
+<pre><code>In terms of task execution, the single-row input module is shown within a height of one-row text and no word wrap, whereas the multiple-row input module is shown within a maximum height of triple-row text. In addition, if the text exceeds the triple-row height of the multiple-row input module, a scrollbar will appear on the right to allow the module to fit more characters.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00031.png" /></p>
+<h2 id="23-data-cleaning-module">2.3 Data Cleaning Module</h2>
+<pre><code>This module is used to determine whether an assignment is valid and whether it needs editing.
+When “Yes” is chosen for the validity option, assignments with empty or unqualified results cannot be submitted by an operator. When a tag is set as a necessity, an assignment can be submitted only if its results involve that particular tag.  
+When “No/Unknown” is chosen for the validity option, no examination of results is required for submitting assignments.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00032.png" /></p>
+<pre><code>In the labeling process, if there is no result, the assignment cannot be submitted:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00033.png" /></p>
+<pre><code>If the result does not contain a necessary tag, the assignment cannot be submitted:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00034.png" /></p>
+<h2 id="24-form-group-module">2.4 Form Group Module</h2>
+<pre><code>This module is useful in labeling a specific part of a job. When you need to label both the whole job and a specific part of it, you can drag a form group module into the template before adding necessary components into the form group.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00035.png" /></p>
+<pre><code>For instance, the audio labeling template below requires an operator to determine the validity of the whole audio clip; in contrast, he/she only has to label the role and sex of a speaker from a particular part of the whole clip: this is when a form group module is needed to include two single-choice modules for labeling the role and sex.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00036.png" /></p>
+<pre><code>This is how the template is shown in the labeling interface:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00037.png" /></p>
+<h2 id="25-tag-module">2.5 Tag Module</h2>
+<pre><code>The tag module supports two types of tags: single tag and tag group. You can select either of them through [Set tag type].
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00038.png" /></p>
+<pre><code>For a single tag, the administrator can click the “settings” icon on its right to set attributes of the tag: color, code name, necessity, maximum/minimum width and height for labeling, as well as an example image for the tag (to help the operator better understand it).
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00039.png" /></p>
+<h3 id="251-set-tag-color">2.5.1 Set Tag Color</h3>
+<pre><code>In the attribute settings, you can click on the palette to choose different colors for each tag.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00040.png" /></p>
+<pre><code>The picture below shows tags in different colors in the labeling interface:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00041.png" /></p>
+<pre><code>The picture below shows tags in different colors in the audit interface (mark image):
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00042.png" /></p>
+<pre><code>The picture below shows tags in different colors in the audit interface (mask image):
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00043.png" /></p>
+<h3 id="252-set-tag-display-name">2.5.2 Set Tag Display Name</h3>
+<pre><code>Setting a display name for each tag could help the operator better grasp the meaning of the tag, as is demonstrated in the following picture:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00044.png" /></p>
+<h3 id="253-specify-width-and-height-limits">2.5.3 Specify Width and Height Limits</h3>
+<pre><code>The picture below shows how to set the width and height limits for each tag:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00045.png" /></p>
+<pre><code>In the image below, when labeling, if an operator draws a rectangle that does not meet width or height limits, the rectangle will be filled with red to warn the operator of the error. And when the operator finishes drawing, the rectangle will disappear from the page without saving the result.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00046.jpg" /></p>
+<pre><code>For a labeling rectangle, when its width or height does not meet the limits that are added after the rectangle is drawn, adjustment mode will be activated to inform the operator to “adjust the size of the figure as it exceeds the limits of the selected tag.” If the operator refuses to adjust it, the labeling result will be discarded and the rectangle will disappear.  
+The correct one will be save as below
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00047.jpg" /></p>
+<h3 id="254-set-tag-necessity">2.5.4 Set Tag Necessity</h3>
+<pre><code>When you set a tag as “necessary”, a necessity icon will appear to the left of it to remind the operator that this tag is a must-have in the assignment.
+This attribute should be used along with the data cleaning module.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00048.png" /></p>
+<pre><code>When an operator submits a job, the system will verify if any necessary tag has been selected. The operator will be sent an error warning when a necessary tag is not selected in the assignment.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00049.png" /></p>
+<h3 id="255-set-a-sample-image">2.5.5 Set a Sample Image</h3>
+<pre><code>This feature allows you to add a sample image for each tag, so that an operator can better comprehend the annotating rules.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00050.png" /></p>
+<pre><code>The following image shows how sample images are shown in the annotating interface:
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00051.png" /></p>
+<h1 id="3user-management">3.User Management</h1>
+<pre><code>After logging in to the Admin platform, click [User Management], you can check all the users on admin and team platform that belong to the same tenant.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00052.png" /></p>
+<pre><code>You can search users by type, creation time, status etc. and also create new users or set tags for the users.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00053.png" /></p>
+<h2 id="4team-management-admin-manager">4.Team Management (Admin Manager)</h2>
+<h2 id="41-create-and-edit-team">4.1 Create and Edit Team</h2>
+<h3 id="411-create-team">4.1.1 Create Team</h3>
+<pre><code>After logging in to the Admin platform, click [Team Management], and then click [Create new].
+Enter basic information about your team in a pop-up window. Set [Status] as “Approved” , and then click [Save].
+Now you have successfully created a team.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00054.png" /></p>
+<h3 id="412-edit-team">4.1.2 Edit team</h3>
+<pre><code>Find a target team on the team list, and click the [Edit] button on the right.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00055.png" /></p>
+<pre><code>After you have edited information, click [Save] to keep the changes.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00056.png" /></p>
+<h2 id="42-addremove-team-membersadmin-manager">4.2 Add/Remove Team Members(Admin Manager)</h2>
+<h3 id="421-add-member">4.2.1 Add member</h3>
+<pre><code>When the project administrator/manager logs in to the Admin platform, he/she can go to [Team Management] to find a target team on the list before clicking the [Manage] button on the right.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00057.png" /></p>
+<pre><code>Click [Create new]
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00058.png" /></p>
+<pre><code>Enter information about the new member in a pop-up window, and click [Save] to finish the addition.
+In the pop-up window, you can choose multiple roles for a member to determine the scope of his/her permissions.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00059.png" /></p>
+<h3 id="422-edit-and-remove-member">4.2.2 Edit and Remove Member</h3>
+<pre><code>Find a target account on the member list, and then click [Edit] or [Remove] on the right based on your needs.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00060.png" /></p>
+<h3 id="423-addremove-a-memberteam-manager">4.2.3 Add/Remove a Member(Team Manager)</h3>
+<h4 id="4231-add-a-single-member">4.2.3.1 Add a Single Member</h4>
+<pre><code>When the team manager logs in to the Team platform, he/she can click [Team Members] on the left panel to enter the team member list, and then click the [Create a user] button.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00061.png" /></p>
+<pre><code>Enter basic information about the new member and select roles. Click [Save] to complete the addition.
+In the pop-up window, you can choose multiple roles for a member to determine the scope of his/her permissions.
+At least one group must be set in advance before you select a group for the new member.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00062.png" /></p>
+<h4 id="4232-add-multiple-members">4.2.3.2 Add Multiple Members</h4>
+<pre><code>Click the [Batch import user] button above the team member list.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00063.png" /></p>
+<pre><code>Click [Click to download Excel template] to download the template for importing members.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00064.png" /></p>
+<pre><code>Open the Excel template on your computer, input information about new members, and save the file.
+Information you need to provide in the template: nickname, password, email address, and mobile phone number.
+When importing multiple users, you cannot choose roles for them. Their roles are all set as “operator” by default, which can be changed later.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00065.png" /></p>
+<pre><code>After filling out the template, the team manager needs to upload it and click [Next step].
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00066.png" /></p>
+<pre><code>After uploading, you can check the information loaded from the template. If the information is correct, click [Import], otherwise you need to edit your Excel file and click [Re-select Excel File] to upload it again.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00067.png" /></p>
+<pre><code>If a system notification appears on the upper-right corner of the screen telling you that the importation is complete, it means you have successfully imported multiple team members.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00068.png" /></p>
+<h4 id="4233-remove-a-member">4.2.3.3 Remove a Member</h4>
+<pre><code>When the team manager finds a target member on the member list, he/she can remove the member from the team by clicking the [Delete] button on the right. The team manager is not allowed to remove himself/herself.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00069.png" /></p>
+<h4 id="4234-edit-a-member">4.2.3.4 Edit a member</h4>
+<pre><code>Click [Check] to enter the details page of a member, and then click the [Edit] button on the right.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00070.png" /></p>
+<pre><code>After editing the member’s information, click the [Save] button.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00071.png" /></p>
+<h1 id="5-company-information">5. Company Information</h1>
+<pre><code>Company information show all your admin account information.
+</code></pre>
+<p><img alt="Screenshot" src="../img/admin00072.png" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../root/" title="Root Module" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Root Module
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../team/" title="Team Module" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Team Module
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
